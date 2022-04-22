@@ -89,9 +89,11 @@ material en el que se encuentra (como una barra lateral)? (valor 0.3)
 Los siguientes ejemplos de elementos son incorrectos. Describe lo que está mal con cada
 uno, y luego escríbelo correctamente. (cada respuesta vale 0.3, en total suman 1.2)
   
-  ![image](https://user-images.githubusercontent.com/91554777/164575670-e609cad4-34d4-4f7c-aa22-ab32970201f6.png)
            
         1. <img "birthday.jpg">
+        2. <i>Congratulations!<i>
+        3. <a href="file.html">Enlace de texto</a href="file.html">
+        4. <p>Esto es un párrafo<\p>
 
  Indicaciones: La siguiente imagen muestra el contenido de la página web del periodico
 The New York Times. Coloca los elementos semánticos de HTML5 dentro de cada uno de
