@@ -54,34 +54,34 @@ Preguntas:
 a) Las etiquetas HTML semánticas dan un significado extra al contenido de la
 etiqueta
 
-b) La nueva etiqueta <semantic> contiene información sobre cómo interpretar el
-contenido de la página
-  
-c) Todas las etiquetas ahora tienen un atributo llamado "semántico" que contiene
-información sobre el contenido de la etiqueta.
-  
-d) Es solo una palabra de moda sin sentido.
+  b) La nueva etiqueta <semantic> contiene información sobre cómo interpretar el
+  contenido de la página
+
+  c) Todas las etiquetas ahora tienen un atributo llamado "semántico" que contiene
+  información sobre el contenido de la etiqueta.
+
+  d) Es solo una palabra de moda sin sentido.
   
 3. ¿Qué elemento se utiliza para diferenciar el contenido de una página web del
 material en el que se encuentra (como una barra lateral)? (valor 0.3)
   
-a) header
-  
-b) footer
-  
-c) nav
-  
-d) aside
+  a) header
+
+  b) footer
+
+  c) nav
+
+  d) aside
   
 4. De los siguientes elementos, seleccione el que NO clasifica como marcado semántico. (valor 0.3)
   
-a) mark
-         
-b) article
-  
-c) time
-         
-d) span
+  a) mark
+
+  b) article
+
+  c) time
+
+  d) span
   
 5. ¿Menciona al menos 6 elementos semánticos en html5 y descríbelos brevemente? (valor 1.5)
   
@@ -108,166 +108,161 @@ Preguntas:
     
 1. ¿Qué significa HTML? (valor 0.24)
     
-a) Home Tool Markup Language
-    
-b) Hyperlinks and Text Markup Language
-    
-c) Hyper Text Markup Language
+  a) Home Tool Markup Language
+
+  b) Hyperlinks and Text Markup Language
+
+  c) Hyper Text Markup Language
     
 2. Elige el elemento HTML correcto para el encabezado más grande: (valor 0.24)
     
-a) heading
-    
-b) hed
-    
-c) h6
-    
-d) h1
+  a) heading
+
+  b) hed
+
+  c) h6
+
+  d) h1
     
 3. ¿Cuál es el elemento HTML correcto para insertar un salto de línea? (valor 0.24)
     
-a) lb
-       
-b) br
-    
-c) break
-    
+  a) lb
+
+  b) br
+
+  c) break
+
 4. ¿Cuál es el HTML correcto para agregar un color de fondo? (valor 0.24)
 
-a) <background>yellow</background>
-    
-b) <body bg="yellow">
-    
-c) <body style="background-color:yellow;">
+  a) <background>yellow</background>
+
+  b) <body bg="yellow">
+
+  c) <body style="background-color:yellow;">
     
 5. Elija el elemento HTML correcto para definir texto importante (valor 0.24)
     
-a) b
-    
-b) strong
-    
-c) i
-    
-d) important
+  a) b
+
+  b) strong
+
+  c) i
+
+  d) important
     
 6. Elija el elemento HTML correcto para definir el texto enfatizado (valor 0.24)
     
-a) italic
-    
-b) em
-    
-c) i
+  a) italic
+
+  b) em
+
+  c) i
 
 7. ¿Cuál es el HTML correcto para crear un hipervínculo? (valor 0.24)
-a) <a>https://adip.cdmx.gob.mx/</a>
-    
-b) <a name="https://adip.cdmx.gob.mx">ADIP</a>
-    
-c) <a href="https://adip.cdmx.gob.mx">ADIP</a>
-    
-d) <a url=”https://adip.cdmx.gob.mx">ADIP</a>
+  
+![image](https://user-images.githubusercontent.com/91554777/164575934-232a1c65-6dba-4b4c-bed7-f2bb630d97d9.png)
   
   
 8. ¿Cómo puedes abrir un enlace en una nueva pestaña/ventana del navegador? (valor 0.24)
   
-a) <a href="url" target="new">
-  
-b) <a href="url" target="_blank">
-  
-c) <a href="url" new>
+  a) <a href="url" target="new">
+
+  b) <a href="url" target="_blank">
+
+  c) <a href="url" new>
   
 9. ¿Cuáles de estos elementos son todos elementos de <table>? (valor 0.24)
   
-a) thead body  tr
-  
-b) table  tr  tt
-  
-c) table  head  tfoot
-  
-d) table  tr  td
+  a) thead body  tr
+
+  b) table  tr  tt
+
+  c) table  head  tfoot
+
+  d) table  tr  td
   
 10. Los elementos inline normalmente se muestran sin comenzar una nueva línea.(valor 0.24)
   
-a) Verdadero
-  
-b) Falso
+  a) Verdadero
+
+  b) Falso
     
   
 11. ¿Cómo puedes hacer una lista numerada? (valor 0.24)
   
-a) list
-  
-b) ol
- 
-c) ul
-  
-d) dl
+  a) list
+
+  b) ol
+
+  c) ul
+
+  d) dl
   
 12. ¿Cómo se puede hacer una lista con viñetas? (valor 0.24)
   
-a) ol
-  
-b) ul
-  
-c) list
-  
-d) dl
+  a) ol
+
+  b) ul
+
+  c) list
+
+  d) dl
   
 13. ¿Cuál es el HTML correcto para hacer una casilla de verificación (checkbox )? (valor 0.24)
   
-a) input type="check"
-  
-b) check
-  
-c) checkbox
-  
-d) <input type="checkbox">  
+  a) input type="check"
+
+  b) check
+
+  c) checkbox
+
+  d) <input type="checkbox">  
 
 14. ¿Cuál es el HTML correcto para crear un campo de entrada de texto? (valor 0.24) 
   
-a) textfield
-  
-b) textinput type="text"
-  
-c) input type="textfield"
-  
-d) input type="text"
+  a) textfield
+
+  b) textinput type="text"
+
+  c) input type="textfield"
+
+  d) input type="text"
   
 15. ¿Cuál es el HTML correcto para hacer una lista desplegable? (valor 0.24)
   
-a) list
-  
-b) input type="list"
-  
-c) input type="dropdown"
-  
-d) select
+  a) list
+
+  b) input type="list"
+
+  c) input type="dropdown"
+
+  d) select
   
 16. ¿Cuál es el HTML correcto para hacer un área de texto? (valor 0.24)
   
-a) input type="textbox"
-  
-b) input type="textarea"
-  
-c) textarea
+  a) input type="textbox"
+
+  b) input type="textarea"
+
+  c) textarea
   
 17. ¿Cuál es el HTML correcto para insertar una imagen? (valor 0.24
   
-a) <img src="image.gif" alt="Mi imagen">
-  
-b) <img href="image.gif" alt="Mi imagen">
-  
-c) <img alt="Mi imagen">image.gif</img>
-  
-d) <image src="image.gif" alt="Mi imagen">
+  a) <img src="image.gif" alt="Mi imagen">
+
+  b) <img href="image.gif" alt="Mi imagen">
+
+  c) <img alt="Mi imagen">image.gif</img>
+
+  d) <image src="image.gif" alt="Mi imagen">
   
 18. ¿Cuál es el HTML correcto para insertar una imagen de fondo? (valor 0.24)
   
-a) <body bg="background.gif">
-  
-b) <body style="background-image:url(background.gif)">
-  
-c) <background img="background.gif">
+  a) <body bg="background.gif">
+
+  b) <body style="background-image:url(background.gif)">
+
+  c) <background img="background.gif">
   
 19. Los comentarios HTML comienzan con <!-- y terminan con - -> (valor 0.24)
   
