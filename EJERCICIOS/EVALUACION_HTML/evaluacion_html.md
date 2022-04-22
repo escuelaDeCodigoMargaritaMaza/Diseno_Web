@@ -165,8 +165,11 @@ Preguntas:
         c) i
 
 7. ¿Cuál es el HTML correcto para crear un hipervínculo? (valor 0.24)
-  
-![image](https://user-images.githubusercontent.com/91554777/164575934-232a1c65-6dba-4b4c-bed7-f2bb630d97d9.png)
+
+        a) <a>https://adip.cdmx.gob.mx/</a>
+        b) <a name="https://adip.cdmx.gob.mx">ADIP</a>
+        c) <a href="https://adip.cdmx.gob.mx">ADIP</a>
+        d) <a url=”https://adip.cdmx.gob.mx">ADIP</a>
   
   
 8. ¿Cómo puedes abrir un enlace en una nueva pestaña/ventana del navegador? (valor 0.24)
