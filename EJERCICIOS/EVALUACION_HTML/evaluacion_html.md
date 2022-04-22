@@ -39,9 +39,9 @@ distintas carpetas distintos tipos de archivo, por ejemplo, los archivos relacio
 a imágenes en una carpeta, en otra los relacionados a multimedia, en otra a lo
 referente a los estilos (CSS), etc. (valor 1.0)
 
-    a) Cierto
+        a) Cierto
 
-    b) Falso
+        b) Falso
 
 ## 3. ESTRUCTURA BÁSICA DE UN DOCUMENTO HTML
 
@@ -55,24 +55,24 @@ Preguntas:
 a) Las etiquetas HTML semánticas dan un significado extra al contenido de la
 etiqueta
 
-    b) La nueva etiqueta <semantic> contiene información sobre cómo interpretar el
-    contenido de la página
+        b) La nueva etiqueta <semantic> contiene información sobre cómo interpretar el
+        contenido de la página
 
-    c) Todas las etiquetas ahora tienen un atributo llamado "semántico" que contiene
-    información sobre el contenido de la etiqueta.
+        c) Todas las etiquetas ahora tienen un atributo llamado "semántico" que contiene
+        información sobre el contenido de la etiqueta.
 
-    d) Es solo una palabra de moda sin sentido.
+        d) Es solo una palabra de moda sin sentido.
   
 3. ¿Qué elemento se utiliza para diferenciar el contenido de una página web del
 material en el que se encuentra (como una barra lateral)? (valor 0.3)
   
-    a) header
+        a) header
 
-    b) footer
+        b) footer
 
-    c) nav
+        c) nav
 
-    d) aside
+        d) aside
   
 4. De los siguientes elementos, seleccione el que NO clasifica como marcado semántico. (valor 0.3)
   
