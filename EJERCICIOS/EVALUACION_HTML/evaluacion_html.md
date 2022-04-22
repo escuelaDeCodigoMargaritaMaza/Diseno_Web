@@ -268,10 +268,13 @@ Realiza la maquetación del siguiente ejemplo de página: (se aplica la rúbrica
 ![image](https://user-images.githubusercontent.com/91554777/164575358-76757050-5393-44a3-a075-0583e749b4e8.png)
 
   Debes tener en cuenta los siguientes requisitos:
+  
 ● Este ejercicio lo deberás realizar con las etiquetas de HTML5, haciendo uso de los
 elementos semánticos de HTML5.
+
 ● Deberás, en un bloc de notas, colocar todo el código html5 y guárdalo con
 extensión .html
+
 ● No es necesario que incluyas los estilos (CSS) para cada elemento en esta
 actividad pero sí todo el código HTML5 que da estructura a cada una de las
 secciones que se muestran en la imagen de arriba.
