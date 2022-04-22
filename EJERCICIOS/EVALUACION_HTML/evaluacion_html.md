@@ -39,8 +39,9 @@ distintas carpetas distintos tipos de archivo, por ejemplo, los archivos relacio
 a imágenes en una carpeta, en otra los relacionados a multimedia, en otra a lo
 referente a los estilos (CSS), etc. (valor 1.0)
 
-a) Cierto
-b) Falso
+    a) Cierto
+
+    b) Falso
 
 ## 3. ESTRUCTURA BÁSICA DE UN DOCUMENTO HTML
 
@@ -54,34 +55,34 @@ Preguntas:
 a) Las etiquetas HTML semánticas dan un significado extra al contenido de la
 etiqueta
 
-  b) La nueva etiqueta <semantic> contiene información sobre cómo interpretar el
-  contenido de la página
+    b) La nueva etiqueta <semantic> contiene información sobre cómo interpretar el
+    contenido de la página
 
-  c) Todas las etiquetas ahora tienen un atributo llamado "semántico" que contiene
-  información sobre el contenido de la etiqueta.
+    c) Todas las etiquetas ahora tienen un atributo llamado "semántico" que contiene
+    información sobre el contenido de la etiqueta.
 
-  d) Es solo una palabra de moda sin sentido.
+    d) Es solo una palabra de moda sin sentido.
   
 3. ¿Qué elemento se utiliza para diferenciar el contenido de una página web del
 material en el que se encuentra (como una barra lateral)? (valor 0.3)
   
-  a) header
+    a) header
 
-  b) footer
+    b) footer
 
-  c) nav
+    c) nav
 
-  d) aside
+    d) aside
   
 4. De los siguientes elementos, seleccione el que NO clasifica como marcado semántico. (valor 0.3)
   
-  a) mark
+        a) mark
 
-  b) article
+        b) article
 
-  c) time
+        c) time
 
-  d) span
+        d) span
   
 5. ¿Menciona al menos 6 elementos semánticos en html5 y descríbelos brevemente? (valor 1.5)
   
@@ -108,55 +109,55 @@ Preguntas:
     
 1. ¿Qué significa HTML? (valor 0.24)
     
-  a) Home Tool Markup Language
+        a) Home Tool Markup Language
 
-  b) Hyperlinks and Text Markup Language
+        b) Hyperlinks and Text Markup Language
 
-  c) Hyper Text Markup Language
+        c) Hyper Text Markup Language
     
 2. Elige el elemento HTML correcto para el encabezado más grande: (valor 0.24)
     
-  a) heading
+        a) heading
 
-  b) hed
+        b) hed
 
-  c) h6
+        c) h6
 
-  d) h1
+        d) h1
     
 3. ¿Cuál es el elemento HTML correcto para insertar un salto de línea? (valor 0.24)
-    
-  a) lb
 
-  b) br
+        a) lb
 
-  c) break
+        b) br
+
+        c) break
 
 4. ¿Cuál es el HTML correcto para agregar un color de fondo? (valor 0.24)
 
-  a) <background>yellow</background>
+        a) <background>yellow</background>
 
-  b) <body bg="yellow">
+        b) <body bg="yellow">
 
-  c) <body style="background-color:yellow;">
+        c) <body style="background-color:yellow;">
     
 5. Elija el elemento HTML correcto para definir texto importante (valor 0.24)
     
-  a) b
+        a) b
 
-  b) strong
+        b) strong
 
-  c) i
+        c) i
 
-  d) important
+        d) important
     
 6. Elija el elemento HTML correcto para definir el texto enfatizado (valor 0.24)
     
-  a) italic
+        a) italic
 
-  b) em
+        b) em
 
-  c) i
+        c) i
 
 7. ¿Cuál es el HTML correcto para crear un hipervínculo? (valor 0.24)
   
@@ -165,11 +166,11 @@ Preguntas:
   
 8. ¿Cómo puedes abrir un enlace en una nueva pestaña/ventana del navegador? (valor 0.24)
   
-  a) <a href="url" target="new">
+        a) <a href="url" target="new">
 
-  b) <a href="url" target="_blank">
+        b) <a href="url" target="_blank">
 
-  c) <a href="url" new>
+        c) <a href="url" new>
   
 9. ¿Cuáles de estos elementos son todos elementos de <table>? (valor 0.24)
   
