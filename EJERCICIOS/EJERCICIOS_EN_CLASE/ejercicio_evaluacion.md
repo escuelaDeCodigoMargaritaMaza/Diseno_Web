@@ -53,3 +53,90 @@
 
 
 ## AGREGA EL CSS NECESARIO A LA PÁGINA.
+
+
+ /* SELECTOR UNIVERSAL */
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: 'Open Sans', sans-serif;
+            }
+
+            /* ESTILOS DEL HEADER */
+            header{
+                background-color: rgb(68, 67, 67);
+                
+            }
+            h1{
+                font-size: 40px;
+                color: aquamarine;
+                text-align: center;
+                padding-top: 30px; 
+                padding-bottom: 30px;
+                        
+                }
+            nav{
+                background-color: aquamarine;
+                text-align: center;
+            }
+            nav a{
+                text-decoration: none;
+                }
+
+            /*ESTILOS DEL ARTICLE  */
+            article{
+                background-color: rgb(45, 134, 218);
+            }
+
+            /* ESTILOS DEL ASIDE */
+            aside{
+                background-color: rgb(250, 15, 199);
+            }
+
+            /* ESTILOS DEL FOOTER */
+            footer{
+                background-color: yellow;
+                letter-spacing: .5em;
+            }
+
+            /* CLASE PARA SOMBRA DE TEXTO */
+            .sombra{
+                text-shadow: 3px 3px 2px rgb(212, 111, 98);
+            }
+
+            /* ESTILOS PARA LOS BOTONES DEL MENU */
+            #enl1{
+                border: 1px solid rgb(245, 9, 9);
+                background-color: blueviolet;
+                color: #fff;
+            }
+            #enl2{
+                border: 1px solid rgb(245, 9, 9);
+                background-color: rgb(34, 4, 63);
+                color: #fff;
+            }
+            #enl3{
+                border: 1px solid rgb(245, 9, 9);
+                background-color: rgb(218, 188, 247);
+                color: #fff;
+            }
+            #enl4{
+                border: 1px solid rgb(245, 9, 9);
+                background-color: rgb(60, 41, 78);
+                color: #fff;
+            }
+
+            /* ESTILOS PARA LOS CONTENEDORES */
+            .espacio{
+                padding: 50px 0 50px 0;
+                text-align: center;
+                border: 1px solid black;
+            }
+
+            /* ESTILOS PARA LOS SUBTIRULOS */
+            .subtitulos{
+                color: red;
+                font-size: 30px;
+                font-weight: bold;
+                letter-spacing: .5em;
+            }
