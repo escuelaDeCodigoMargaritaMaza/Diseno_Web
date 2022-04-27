@@ -55,7 +55,7 @@
 ## AGREGA EL CSS NECESARIO A LA PÁGINA.
 
 
- /* SELECTOR UNIVERSAL */
+             /* SELECTOR UNIVERSAL */
             *{
                 margin: 0;
                 padding: 0;
