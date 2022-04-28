@@ -9,13 +9,13 @@
     <body>
 
         <header>
-            <h1>ENCABEZADO NIVEL 1</h1>
+            <h1 class="sombra">ENCABEZADO NIVEL 1</h1>
             <nav>
                 <ul>
-                    <li><a href="">ENLACE 1</a></li>
-                    <li><a href="">ENLACE 2</a></li>
-                    <li><a href="">ENLACE 3</a></li>
-                    <li><a href="">ENLACE 4</a></li>
+                    <li><a href="" id="enl1">ENLACE 1</a></li>
+                    <li><a href="" id="enl2">ENLACE 2</a></li>
+                    <li><a href="" id="enl3">ENLACE 3</a></li>
+                    <li><a href="" id="enl4">ENLACE 4</a></li>
                 </ul>
             </nav>
         </header>
@@ -23,14 +23,14 @@
 
         <main>
 
-            <article>
-                <h2>Encabezado nivel 2</h2>
-                <p>Aqui va el texto del primer <b>Párrafo</b></p>
+            <article class="espacio">
+                <h2 class="subtitulos sombra">Encabezado nivel 2</h2>
+                <p>Aqui va el texto del primer <b><span  class="subtitulos"> Párrafo</span></b></p>
                 <p>Aqui va el texto del segundo párrafo</p>
             </article>
 
-            <aside>
-                <h2>Apartado</h2>
+            <aside class="espacio sombra">
+                <h2  class="subtitulos sombra">Apartado</h2>
                 <p>Elige una opción</p>
                 <form action="">
                     <input type="radio" name="opcion">Opción 1 <br>
@@ -43,7 +43,7 @@
         </main>
 
 
-        <footer>
+        <footer class="espacio">
             <p>Sección de información de contacto, derechos de autor, etc</p>
 
         </footer>
