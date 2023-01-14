@@ -1,5 +1,5 @@
 
-    <!DOCTYPE html>
+       <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -96,6 +96,39 @@
                 display: flex;
                 align-items: center;
             }
+
+            /* maquina escribir */
+            .section5{
+                height: 100vh;
+                background-color: rgb(15, 15, 15);
+                display: flex;
+                align-items: center;
+            }
+
+                .olivetti {
+                    font-size: 2rem;
+                    font-family: monospace;
+                    color: white;
+                    width: 50%;
+                    animation: olivetti 5s steps(30), pampalluga 0.5s step-end infinite alternate;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    border-right: 2px solid white;
+                }
+
+                @keyframes olivetti {
+                    from {
+                        width: 0;
+                    }
+                }
+
+                @keyframes pampalluga {
+                    50% {
+                        border-color: transparent;
+                    }
+                }
+
+
             </style>
     </head>
     <body>
@@ -112,5 +145,12 @@
           <div class="section4">
              <img class="svg" src="https://pngimg.com/uploads/orange/orange_PNG749.png" alt="">
           </div>
+
+          <div class="section5">
+            <div class="olivetti">
+    DAVID SANTILLAN BRETON
+        </div>
+
+
     </body>
     </html>
