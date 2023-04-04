@@ -1,0 +1,176 @@
+*{
+    /* siempre matamos los margenes y espacios que da el navegador por defoult */
+    margin:0;    
+    padding: 0;
+}
+
+nav img{
+    width: 10%;
+}
+nav p {
+    color: black;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+    font-weight: bold;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+a{
+    background-color: rgb(89, 206, 241);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+a:hover{
+    opacity: 40%;
+    color:#d7e6f5;
+}
+header ul{
+    display: flex;
+}
+header li{
+    margin-left: 15px;
+    list-style-type: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+
+/* termina nav comienza el texto y la imagen */
+header{
+    background:linear-gradient(rgb(163, 219, 236),#fff);
+    padding: 0 30px;
+} 
+.caja{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+.cajita{
+    width: 100%;
+    text-align: end;
+}
+.cajita p{
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 4em;
+
+}
+img{
+    width: 50%;
+}
+span{
+    color: aqua;
+}
+/* termina header y comienza seccion acerca de mi */
+h2{
+    font-size: 2.5em;
+    text-align: center;
+
+}
+.acerca{
+    height: 80vh;
+    width: 100%;
+    background: url(../img/4977-removebg-preview.png);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+   
+}
+.acerca1{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.acerca2{
+    height: 50vh;
+    width: 70%;
+    border-radius: 30px;
+    background: linear-gradient(to right,rgba(116, 241, 241, 0.329),rgba(240, 243, 245, 0.452)) ;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+ }
+
+ .parallax{
+    width: 100%;
+    height: 50vh;
+    background: url(../img/pexels-photo-1933239.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* opacity: .7; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+ }
+ .parallax p{
+    width: 60%;
+    text-align: center;
+    background-color: rgba(13, 14, 14, 0.582);
+    font-size: 2.5em;
+    padding: 30px;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+ }
+/* portafolio */
+.portafolio{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/4977-removebg-preview1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  
+}
+.portafolios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.portafolio1{
+    display:flex;
+    width: 60%;
+    height: 70vh;
+    border: solid 5px rgb(7, 137, 170);
+}
+.portafolio1 img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+
+}
+.portafolio1 img:hover{
+    cursor:crosshair;
+    width: 40%;
+    opacity: 1;
+    filter: contrast(120%);
+}
