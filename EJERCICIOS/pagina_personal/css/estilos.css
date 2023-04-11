@@ -174,3 +174,59 @@ h2{
     opacity: 1;
     filter: contrast(120%);
 }
+
+/* contacto */
+
+.contacto{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(#fff,rgb(163, 219, 236));
+
+}
+.contacto1{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacto2{
+    width: 60%;
+    height: 50vh;
+    background-color: rgba(13, 14, 14, 0.288);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+
+}
+.boton{
+    background-color: rgb(89, 206, 241);
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+}
+.input{
+    border: solid 2px rgb(89, 206, 241);
+    background-color: rgb(198, 232, 245);
+    border-radius: 10px;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color:rgb(163, 219, 236);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.mail{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.redes img{
+    margin-right: 30px;
+}
