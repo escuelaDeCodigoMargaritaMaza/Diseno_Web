@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com');
 *{
     /* siempre matamos los margenes y espacios que da el navegador por defoult */
     margin:0;    
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 nav img{
@@ -68,16 +71,28 @@ h1{
     font-size: 4em;
 
 }
-img{
+.cajita img{
     width: 50%;
 }
 span{
     color: aqua;
+    font-size: 2em;
+    background: url(https://th.bing.com/th/id/R.673a340611e9c63d6acdbc84f97a4c82?rik=WalFXiS3Tw%2fJzA&riu=http%3a%2f%2fwww.vortexmag.net%2fwp-content%2fuploads%2f2017%2f09%2fthumb-1920-466427.jpg&ehk=S76Vxxb8xdV%2bSJL6JwfHxnsqupTOlA%2fUDXwQ%2fcXC%2bnk%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 /* termina header y comienza seccion acerca de mi */
+/* https://www.cssgradienttext.com/ */
 h2{
     font-size: 2.5em;
     text-align: center;
+    background: linear-gradient(88deg, #42d392, #647eff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+
 
 }
 .acerca{
@@ -87,6 +102,7 @@ h2{
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
+    
     
    
 }
@@ -157,7 +173,7 @@ h2{
 .portafolio1{
     display:flex;
     width: 60%;
-    height: 70vh;
+    height: 60vh;
     border: solid 5px rgb(7, 137, 170);
 }
 .portafolio1 img{
@@ -175,6 +191,23 @@ h2{
     filter: contrast(120%);
 }
 
+
+
+.imagen{
+    background-color: rgb(20, 20, 20);
+}
+
+.imagen p{
+    font-size: .8em;
+    text-align: justify;
+    width: 50%;
+    height: 50vh;
+    background:url(https://horoscopo.me/wp-content/uploads/2017/11/mujer-678x380.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 /* contacto */
 
 .contacto{
@@ -189,14 +222,23 @@ h2{
     align-items: center;
     justify-content: center;
 }
+/* https://css.glass/ */
 .contacto2{
     width: 60%;
     height: 50vh;
-    background-color: rgba(13, 14, 14, 0.288);
+    /* background-color: rgba(13, 14, 14, 0.288); */
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 30px;
+    /* border-radius: 30px; */
+    /* From https://css.glass */
+    /* From https://css.glass */
+    background: rgba(87, 201, 220, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.6px);
+    -webkit-backdrop-filter: blur(4.6px);
+    border: 1px solid rgba(87, 201, 220, 0.3);
 
 }
 .boton{
@@ -221,12 +263,114 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
+
 }
+
 .mail{
    display: flex;
    align-items: center;
    justify-content: center;
 }
+
+/* https://www.cattocss.com/ */
+/* https://xsgames.co/animatiss/ */
+
+.redes img{
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+.redes img:hover{
+    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
+}
+
 .redes img{
     margin-right: 30px;
+    border-radius: 50px;
 }
+
+.whats{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* aviso de privacidad */
+
+.aviso {
+    position: relative;
+    display: inline-block;
+    cursor: default;
+  }
+  
+  .aviso1 {
+    font-size: .8em;
+    display: none;
+    width: 500px;
+    border: solid 1px black;
+    background: rgba(0, 0, 0, 0.568);
+    color: #fff;
+    text-align: center;
+    border-radius: 0.25em;
+    position: absolute;
+    z-index: 1;
+    top: 1px;
+    left: 1px;
+  }
+  
+  .aviso:hover .aviso1 {
+    display: block;
+    transition-delay: 0.3s;
+  }
+
+  /* barra */
+  ::-webkit-scrollbar{
+    width: 12px;
+    background-color: red;
+  }
+  ::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: blue;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.9);
+
+  }
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: linear-gradient(rgba(255, 0, 221, 0.466),rgba(255, 0, 0, 0.459))
+
+}
+
+/* página diseño */
+
+.diseño{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(#fff,rgb(163, 219, 236));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.diseño1{
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    background: url(../img/html5-logo-psd-3-removebg-preview-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.proyecto{
+    margin-bottom: 50px;
+}
+.atras{
+    padding: 0;
+}
+/* RESPONSIVE */
