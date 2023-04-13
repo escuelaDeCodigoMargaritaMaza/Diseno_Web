@@ -373,4 +373,49 @@ footer{
 .atras{
     padding: 0;
 }
+
+#menu{
+    display: none;
+}
+.hambur{
+    display: none;
+}
+
 /* RESPONSIVE */
+
+@media (max-width:900px){
+
+    nav ul{
+        display:none; 
+        position: absolute;
+        top: 50px;
+        right: 100px;
+    }
+    input:checked  ~ ul{
+        display:block;
+        border: solid 3px blue;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+        background-color: rgb(89, 206, 241);
+        box-shadow: 5px 5px 5px 5px black;
+         }
+    input {
+        display: none;
+    }
+   .hambur{
+        display: block;
+         width: 70%;
+   }
+   nav li{
+        margin: 50px;
+        padding: 10px;
+      
+   }
+   nav a{
+        padding: 0;
+   }
+
+  
+}
