@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com');
 *{
     /* siempre matamos los margenes y espacios que da el navegador por defoult */
-    margin:0;    
+    margin:0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 
@@ -22,7 +22,7 @@ nav p {
     display: flex;
     align-items: center;
 }
-a{
+header a{
     background-color: rgb(89, 206, 241);
     text-decoration: none;
     color: white;
@@ -31,7 +31,7 @@ a{
     border-radius: 20px;
 }
 
-a:hover{
+header a:hover{
     opacity: 40%;
     color:#d7e6f5;
 }
@@ -53,7 +53,7 @@ nav{
 header{
     background:linear-gradient(rgb(163, 219, 236),#fff);
     padding: 0 30px;
-} 
+}
 .caja{
     display: flex;
     height: 80vh;
@@ -102,9 +102,9 @@ h2{
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
-    
-    
-   
+
+
+
 }
 .acerca1{
     height: 80vh;
@@ -162,7 +162,7 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
 
-  
+
 }
 .portafolios{
     display: flex;
@@ -190,6 +190,7 @@ h2{
     opacity: 1;
     filter: contrast(120%);
 }
+
 
 
 
@@ -305,7 +306,7 @@ footer{
     display: inline-block;
     cursor: default;
   }
-  
+
   .aviso1 {
     font-size: .8em;
     display: none;
@@ -320,7 +321,7 @@ footer{
     top: 1px;
     left: 1px;
   }
-  
+
   .aviso:hover .aviso1 {
     display: block;
     transition-delay: 0.3s;
@@ -350,26 +351,52 @@ footer{
     height: 80vh;
     background: linear-gradient(#fff,rgb(163, 219, 236));
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-}
+    align-items: center;
+
+ }
 .diseño1{
-    width: 60%;
-    height: 70vh;
-    border-radius: 30px;
-    background: url(../img/html5-logo-psd-3-removebg-preview-removebg-preview.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 90%;
+    margin: auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-around;
 }
-.proyecto{
-    margin-bottom: 50px;
+
+
+.card{
+    width: 20%;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px black;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
 }
+
+
+.card:hover{
+    transform: scale3d(1.5, 1.5, 0.3);
+    -webkit-transform: scale3d(1.5, 1.5, 0.3);
+    -moz-transform: scale3d(1.5, 1.5, 0.3);
+}
+
+
+.card img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card p{
+    padding: 10px;
+}
+.card a{
+    text-decoration: none;
+    color:rgb(163, 219, 236);
+    display: inline-block;
+    margin: 30px 0 10px 10px;
+}
+
+
 .atras{
     padding: 0;
 }
@@ -386,7 +413,7 @@ footer{
 @media (max-width:900px){
 
     nav ul{
-        display:none; 
+        display:none;
         position: absolute;
         top: 50px;
         right: 100px;
@@ -397,7 +424,7 @@ footer{
         display: flex;
         align-items: center;
         flex-direction: column;
-        
+
         background-color: rgb(89, 206, 241);
         box-shadow: 5px 5px 5px 5px black;
          }
@@ -406,16 +433,162 @@ footer{
     }
    .hambur{
         display: block;
-         width: 70%;
+         width: 200%;
    }
    nav li{
         margin: 50px;
         padding: 10px;
-      
+
    }
    nav a{
         padding: 0;
    }
+/* tamaño del logo */
+   .logo p{
+    font-size: 1em;
+   }
+   .logo img{
+    width: 25%;
+   }
 
-  
+   .caja{
+    height: 60vh;
+   }
+
+   .cajita{
+    display: none;
+   }
+
+   .cajitares{
+    text-align: center;
+    width:100%;
+    height: 60vh;
+    display:block;
+   }
+
+   .cajitares span{
+    font-size: 1.1em;
+   }
+
+   /* seccion acerca */
+
+  .acerca{
+    height: 80vh;
+    width: 100%;
+
+
+}
+.acerca1{
+    height: 60vh;
+    margin-top: 30px;
+}
+.acerca2{
+    height: 60vh;
+    width: 90%;
+ }
+ .acerca2 p{
+    font-size: .8em;
+
+ }
+
+ /* parallax */
+
+ .parallax p{
+    width: 90%;
+    font-size: 1em;
+    padding: 10px;
+ }
+
+/* portafolio */
+ .portafolio{
+    padding-top: 30px;
+    width: 100%;
+    height: 50vh;
+
+
+}
+.portafolios{
+    height: 40vh;
+}
+.portafolio1{
+    width: 80%;
+    height: 30vh;
+}
+
+/* contacto */
+.contacto{
+    height: 90vh;
+
+}
+.contacto1{
+    height: 80vh;
+}
+
+.contacto2{
+    width: 90%;
+    height: 70vh;
+    font-size: .8em;
+
+}
+
+
+.contacto2 input{
+    display:inline-block;
+
+}
+.input{
+    margin-top: 20px;
+    width: 300px;
+}
+
+/* redes */
+.redes img{
+    width: 15%;
+    margin-right: 5px;
+}
+
+/* ESTILOS PAGINA DISEÑO */
+.diseño{
+    height: 350vh;
+
+
+ }
+.diseño1{
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.card{
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+
+.card:hover{
+    transform: scale3d(1.2, 1.2, 0.2);
+    -webkit-transform: scale3d(1.2, 1.2, 0.2);
+    -moz-transform: scale3d(1.2, 1.2, 0.2);
+}
+
+
+.card img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card p{
+    padding: 10px;
+}
+.card a{
+    text-decoration: none;
+    color:rgb(163, 219, 236);
+    display: inline-block;
+    margin: 30px 0 10px 10px;
+}
+
+
 }
