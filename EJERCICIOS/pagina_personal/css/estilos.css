@@ -408,6 +408,25 @@ footer{
     display: none;
 }
 
+/* submenu */
+.submenu{
+    display: none;
+    position: absolute;
+    top: 80px;
+    background-color: rgb(163, 219, 236);
+}
+.submenu a{
+ background-color: rgb(163, 219, 236);
+ border-radius: 0;
+ padding: 0;
+}
+.submenu li{
+    margin: 30px;
+}
+#porta:hover .submenu{
+    display: block;
+}
+
 /* RESPONSIVE */
 
 @media (max-width:900px){
