@@ -9,7 +9,7 @@
 header{
     width: 100%;
     height: 70vh;
-    background: url();
+    
 }
 .menu{
     width:100%;
@@ -43,4 +43,55 @@ li{
     color: blue;
     font-size: 2em;
     font-family: 'Sixtyfour', sans-serif;
+}
+.fondo{
+    width: 100%;
+    height: 60vh;
+    background: url("../img/pexels-thisisengineering-3861969.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.texto{
+    font-size: 2em;
+    text-shadow: 0 0 5px yellow;
+    text-align: center;
+
+}
+.texto h1{
+    letter-spacing: .2em;
+}
+/* diseño del boton */
+.boton{
+    color: #fff;
+    text-decoration: none;
+    background-color: blue;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+.boton:hover{
+    background-color: rgba(0, 0, 255, 0.355);
+}
+
+/* termina header comienza main */
+
+#acerca{
+    width: 100%;
+    height: 50vh;
+    background-color: pink;
+}
+#conocimientos{
+    width: 100%;
+    height: 70vh;
+    background-color: blue;
+}
+#contacto{
+    width: 100%;
+    height: 50vh;
+    background-color: blueviolet;
 }
