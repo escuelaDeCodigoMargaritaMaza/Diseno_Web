@@ -80,11 +80,8 @@ li{
 
 /* termina header comienza main */
 
-#acerca{
-    width: 100%;
-    height: 50vh;
-    background-color: pink;
-}
+
+
 #conocimientos{
     width: 100%;
     height: 70vh;
@@ -94,4 +91,66 @@ li{
     width: 100%;
     height: 50vh;
     background-color: blueviolet;
+}
+/* escondemos menu de hamburguesa */
+.hamburguesa{
+    display: none;
+}
+
+/* comienza seccion acerca de  */
+
+#acerca{
+    width: 100%;
+    height: 70vh;
+}
+.fotoytexto{
+    width: 90%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.fotoytexto div{
+    width: 30%;
+    height: 60vh;
+    margin: auto;
+}
+.fotoytexto img{
+    width: 100%;
+}
+h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+/* --------------------------------------------------------------------------------------- */
+/* AQUI COMIENZA DISEÑO RESPONSIVO */
+/* ----------------------------------------------------------------------------------------- */
+
+@media(max-width:900px){
+    nav{
+        display: none;
+    }
+    .hamburguesa{
+        display: block;
+        width: 100px;
+    }
+    .menu p{
+        font-size: 3em;
+    }
+    header{
+        height: 100vh;
+    }
+    .menu{
+        height: 20vh;
+    }
+    .fondo{
+        height: 80vh;
+    }
+    .texto{
+        font-size: 1.2em;
+    }
+
+
 }
