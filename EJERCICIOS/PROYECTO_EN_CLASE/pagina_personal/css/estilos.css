@@ -82,16 +82,8 @@ li{
 
 
 
-#conocimientos{
-    width: 100%;
-    height: 70vh;
-    background-color: blue;
-}
-#contacto{
-    width: 100%;
-    height: 50vh;
-    background-color: blueviolet;
-}
+
+
 /* escondemos menu de hamburguesa */
 .hamburguesa{
     display: none;
@@ -124,6 +116,131 @@ h2{
     font-size: 2em;
 }
 
+/* conocimientos*/
+
+#conocimientos{
+    width: 100%;
+    height: 70vh;
+}
+.cajatalleres{
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+}
+.talleres{
+    width: 30%;
+    margin: auto;
+    height:55vh;
+    text-align: center;
+    box-shadow: 0 0 5px black;
+    border-radius: 15px;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+.talleres:hover{
+    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
+}
+
+
+              
+
+              
+
+
+.talleres img{
+    width: 50%;
+}
+/* .container {
+    position: relative;
+    background: #4882bd;
+    height: 20vh;
+  }
+  
+  .wave {
+    position: absolute;
+    height: 92px;
+    width: 100%;
+    background: #4882bd;
+    bottom: 0;
+  }
+  
+  .wave::before, .wave::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+  }
+  
+  .wave::before {
+    width: 55%;
+    height: 109%;
+    background-color: #fff;
+    right: -1.5%;
+    top: 60%;
+  }
+  .wave::after {
+    width: 55%;
+    height: 100%;
+    background-color: #4882bd;
+    left: -1.5%;
+    top: 40%;
+  } */
+
+/* seccion separador */
+.separador{
+    width: 100%;
+    height: 40vh;
+    background: url(../img/informatica-e1575679570321.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.separador p{
+        background-color: rgba(0, 0, 255, 0.429);
+        color: #fff;
+        padding: 20px;
+        font-size: 2em;
+        text-shadow: 0 0 15px yellow;
+
+    }
+/* icono whatsapp */
+.whats{
+    position: fixed;
+    bottom:0;
+    right: 0;
+}
+
+/* seccion contacto */
+#contacto{
+    width: 100%;
+    height: 50vh;
+    background-color: aquamarine;
+    
+}
+.contenedorcontacto{
+    width: 70%;
+    height: 40vh;
+    background-color: beige;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+    width: 40%;
+    height: 40vh;
+    border: 3px solid;
+}
+
+
 /* --------------------------------------------------------------------------------------- */
 /* AQUI COMIENZA DISEÑO RESPONSIVO */
 /* ----------------------------------------------------------------------------------------- */
@@ -152,5 +269,48 @@ h2{
         font-size: 1.2em;
     }
 
+
+    /* seccion acerca de */
+    #acerca{
+        height: 100vh;
+    }
+    .fotoytexto{
+        height: 100vh;
+        width: 95%;
+        margin: auto;
+        flex-direction: column;
+    }
+    .fotoytexto div{
+        width: 80%;
+        height: 90vh;
+        margin: auto;
+        text-align: justify;
+    }
+
+    /* seccion conocimientos */
+    #conocimientos{
+        height: 130vh;
+    }
+    .cajatalleres{
+        width: 90%;
+        height: 120vh;
+        flex-direction: column;
+    }
+    .talleres{
+        width: 100%;
+        height: 39vh;
+        margin-bottom: 15px;
+        }
+    .talleres img{
+        width: 30%;
+        height: 15vh;
+    }
+    /* seccion separador */
+    .separador p{
+        font-size: .8em;
+    }
+    .separador{
+        height: 20vh;
+    }
 
 }
