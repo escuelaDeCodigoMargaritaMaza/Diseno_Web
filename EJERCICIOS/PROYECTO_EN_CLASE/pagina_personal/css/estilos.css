@@ -223,13 +223,11 @@ h2{
 #contacto{
     width: 100%;
     height: 50vh;
-    background-color: aquamarine;
     
 }
 .contenedorcontacto{
     width: 70%;
     height: 40vh;
-    background-color: beige;
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -237,8 +235,63 @@ h2{
 .contact{
     width: 40%;
     height: 40vh;
-    border: 3px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.contact input{
+    font-size: 1.5em;
+    border:none;
+    border-bottom: solid 2px blue;
+    margin-bottom: 15px;
+    
+}
+
+/* separador */
+
+.container {
+    position: relative;
+    background: #022d58;
+    height: 20vh;
+    margin-bottom: 50px;
+  }
+  
+  .wave {
+    position: absolute;
+    height: 81px;
+    width: 100%;
+    background: #022d58;
+    bottom: 0;
+  }
+  
+  .wave::before, .wave::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+  }
+  
+  .wave::before {
+    width: 55%;
+    height: 109%;
+    background-color: #fff;
+    right: -1.5%;
+    top: 60%;
+  }
+  .wave::after {
+    width: 55%;
+    height: 100%;
+    background-color: #022d58;
+    left: -1.5%;
+    top: 40%;
+  }
+
+  footer{
+    width: 100%;
+    height: 20vh;
+    background-color: blue;
+  }
+
 
 
 /* --------------------------------------------------------------------------------------- */
@@ -311,6 +364,13 @@ h2{
     }
     .separador{
         height: 20vh;
+    }
+    
+    .contact{
+        width: 100%;
+    }
+    .agenda{
+        display: none;
     }
 
 }
