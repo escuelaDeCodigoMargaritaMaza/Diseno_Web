@@ -1,101 +1,376 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>David Santillán Bretón</title>
-    <link rel="stylesheet" href="css/estilos.css">
-</head>
-<body>
-    <header>
-        <div class="menu">
-            <p>DSB</p>
-            <img class="hamburguesa" src="img/menu.png" alt="menu">
-            <nav>
-                <ul>
-                    <a href="" class="li"><li>Inicio</li></a> 
-                    <a href="" class="li"><li>Acerca de</li></a>
-                    <a href="" class="li"><li>Conocimientos</li></a>
-                    <a href="" class="li"><li>Contacto</li></a>
-                </ul>
-            </nav>
-        </div>
-        <div class="fondo">
-            <div class="texto">
-                <h1>DAVID SANTILLAN BRETON</h1>
-                <p>Estudiante de la Escuela de Código PILARES</p>
-                <a href="" class="boton">Acerca de</a>
-            </div>
-        </div>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Sixtyfour&display=swap');
+/* mato margenes que da el navegador por default */
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
 
-    </header>
-    <main>
-        <section id="acerca">
-            <h2>ACERCA DE MI</h2>
-            <div class="fotoytexto">
-                <div>
-                    <img src="img/que-hace-programador-removebg-preview.png" alt="">
-                </div>
-                <div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur enim veritatis minima debitis commodi, voluptatum beatae. Ducimus, eum! Eum nisi eveniet voluptatum, iure ut neque amet! Beatae ducimus est, maxime perspiciatis sint officiis rerum quas ipsam sequi debitis nam tenetur fugit iste obcaecati harum, enim at quo. Architecto officiis delectus porro voluptas aperiam quos at. Quisquam voluptatem fugit maxime ipsum quis harum nihil voluptatum asperiores ratione consequuntur autem facilis aspernatur  </p>
-                </div>
-            </div>
-            
-        </section>
-        <section id="conocimientos">
-                <h2>CONOCIMIENTOS</h2>
-                <div class="cajatalleres">
-                    <div class="talleres">
-                        <h3>HTML</h3>
-                        <img src="img/62debc4fff3c6e4b8b5de8d3-removebg-preview.png" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque tenetur ducimus eveniet earum voluptatibus nam ratione eum aliquam atque.</p>
-                        <a href="" class="boton">Ver galeria</a>
-                    </div>
-                    <div class="talleres">
-                        <h3>BASE DE DATOS</h3>
-                        <img src="img/descarga-removebg-preview.png" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque tenetur ducimus eveniet earum voluptatibus nam ratione eum aliquam atque.</p>
-                        <a href=""  class="boton">Ver galeria</a>
-                    </div>
-                    <div class="talleres">
-                        <h3>PROGRAMACION</h3>
-                        <img src="img/gratis-png-logo-html-5-desarrollo-web-html-css3-lienzo-elemento-diseno-web-w3c-html5-logo-removebg-preview.png" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque tenetur ducimus eveniet earum voluptatibus nam ratione eum aliquam atque.</p>
-                        <a href=""  class="boton">Ver galeria</a>
-                    </div>
-                </div>
-            </div>
-          </section>
-          <div class="separador">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, porro.</p>
-          </div>
-
-        <section id="contacto">
-            <h2>CONTACTO</h2>
-            <div class="contenedorcontacto">
-                <div class="contact">
+header{
+    width: 100%;
+    height: 70vh;
     
-                </div>
-                <div class="contact">
-                    <form action="" name="contacto">
-                        Nombre: <input type="text" name="nombre" placeholder="Nombre completo"><br>
-                        Teléfono: <input type="tel" name="telefono" minlength="10" maxlength="10" placeholder="10 digitos"><br>
-                        Correo: <input type="email" name="correo"> <br>
-                        <input type="submit">
-                        <input type="reset">
-                        <br>
-                        <input type="checkbox" name="aviso" value="acepto">Aviso de privacidad
-                    </form>
-                </div>
-            </div>
-        </section>
+}
+.menu{
+    width:100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+.li{
+    color: blue;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.li:hover{
+    color: #fff;
+    border: solid 1px blue;
+    background-color: blue;
 
-    </main>
-    <footer>
+}
 
-    </footer>
 
-   <a href=" https://wa.me/5532926062" target="_blank"> <img src="img/chat.png" alt="whatsapp" class="whats"></a>
+.menu p{
+    color: blue;
+    font-size: 2em;
+    font-family: 'Sixtyfour', sans-serif;
+}
+.fondo{
+    width: 100%;
+    height: 60vh;
+    background: url("../img/pexels-thisisengineering-3861969.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.texto{
+    font-size: 2em;
+    text-shadow: 0 0 5px yellow;
+    text-align: center;
+
+}
+.texto h1{
+    letter-spacing: .2em;
+}
+/* diseño del boton */
+.boton{
+    color: #fff;
+    text-decoration: none;
+    background-color: blue;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+.boton:hover{
+    background-color: rgba(0, 0, 255, 0.355);
+}
+
+/* termina header comienza main */
+
+
+
+
+
+/* escondemos menu de hamburguesa */
+.hamburguesa{
+    display: none;
+}
+
+/* comienza seccion acerca de  */
+
+#acerca{
+    width: 100%;
+    height: 70vh;
+}
+.fotoytexto{
+    width: 90%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.fotoytexto div{
+    width: 30%;
+    height: 60vh;
+    margin: auto;
+}
+.fotoytexto img{
+    width: 100%;
+}
+h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+/* conocimientos*/
+
+#conocimientos{
+    width: 100%;
+    height: 70vh;
+}
+.cajatalleres{
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+}
+.talleres{
+    width: 30%;
+    margin: auto;
+    height:55vh;
+    text-align: center;
+    box-shadow: 0 0 5px black;
+    border-radius: 15px;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+.talleres:hover{
+    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
+}
+
+
+              
+
+              
+
+
+.talleres img{
+    width: 50%;
+}
+/* .container {
+    position: relative;
+    background: #4882bd;
+    height: 20vh;
+  }
+  
+  .wave {
+    position: absolute;
+    height: 92px;
+    width: 100%;
+    background: #4882bd;
+    bottom: 0;
+  }
+  
+  .wave::before, .wave::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+  }
+  
+  .wave::before {
+    width: 55%;
+    height: 109%;
+    background-color: #fff;
+    right: -1.5%;
+    top: 60%;
+  }
+  .wave::after {
+    width: 55%;
+    height: 100%;
+    background-color: #4882bd;
+    left: -1.5%;
+    top: 40%;
+  } */
+
+/* seccion separador */
+.separador{
+    width: 100%;
+    height: 40vh;
+    background: url(../img/informatica-e1575679570321.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.separador p{
+        background-color: rgba(0, 0, 255, 0.429);
+        color: #fff;
+        padding: 20px;
+        font-size: 2em;
+        text-shadow: 0 0 15px yellow;
+
+    }
+/* icono whatsapp */
+.whats{
+    position: fixed;
+    bottom:0;
+    right: 0;
+}
+
+/* seccion contacto */
+#contacto{
+    width: 100%;
+    height: 50vh;
     
-</body>
-</html>
+}
+.contenedorcontacto{
+    width: 70%;
+    height: 40vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+    width: 40%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact input{
+    font-size: 1.5em;
+    border:none;
+    border-bottom: solid 2px blue;
+    margin-bottom: 15px;
+    
+}
+
+/* separador */
+
+.container {
+    position: relative;
+    background: #022d58;
+    height: 20vh;
+    margin-bottom: 50px;
+  }
+  
+  .wave {
+    position: absolute;
+    height: 81px;
+    width: 100%;
+    background: #022d58;
+    bottom: 0;
+  }
+  
+  .wave::before, .wave::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+  }
+  
+  .wave::before {
+    width: 55%;
+    height: 109%;
+    background-color: #fff;
+    right: -1.5%;
+    top: 60%;
+  }
+  .wave::after {
+    width: 55%;
+    height: 100%;
+    background-color: #022d58;
+    left: -1.5%;
+    top: 40%;
+  }
+
+  footer{
+    width: 100%;
+    height: 20vh;
+    background-color: blue;
+  }
+
+
+
+/* --------------------------------------------------------------------------------------- */
+/* AQUI COMIENZA DISEÑO RESPONSIVO */
+/* ----------------------------------------------------------------------------------------- */
+
+@media(max-width:900px){
+    nav{
+        display: none;
+    }
+    .hamburguesa{
+        display: block;
+        width: 100px;
+    }
+    .menu p{
+        font-size: 3em;
+    }
+    header{
+        height: 100vh;
+    }
+    .menu{
+        height: 20vh;
+    }
+    .fondo{
+        height: 80vh;
+    }
+    .texto{
+        font-size: 1.2em;
+    }
+
+
+    /* seccion acerca de */
+    #acerca{
+        height: 100vh;
+    }
+    .fotoytexto{
+        height: 100vh;
+        width: 95%;
+        margin: auto;
+        flex-direction: column;
+    }
+    .fotoytexto div{
+        width: 80%;
+        height: 90vh;
+        margin: auto;
+        text-align: justify;
+    }
+
+    /* seccion conocimientos */
+    #conocimientos{
+        height: 130vh;
+    }
+    .cajatalleres{
+        width: 90%;
+        height: 120vh;
+        flex-direction: column;
+    }
+    .talleres{
+        width: 100%;
+        height: 39vh;
+        margin-bottom: 15px;
+        }
+    .talleres img{
+        width: 30%;
+        height: 15vh;
+    }
+    /* seccion separador */
+    .separador p{
+        font-size: .8em;
+    }
+    .separador{
+        height: 20vh;
+    }
+    
+    .contact{
+        width: 100%;
+    }
+    .agenda{
+        display: none;
+    }
+
+}
