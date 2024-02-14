@@ -10,13 +10,15 @@
     <header>
         <div class="menu">
             <p>DSB</p>
-            <img class="hamburguesa" src="img/menu.png" alt="menu">
+            
+            <input type="checkbox" id="menu_desplegable">
+            <label for="menu_desplegable"><img class="hamburguesa" src="img/directorio-telefonico.png" width="50px" alt="menu"></label>
             <nav>
                 <ul>
                     <a href="" class="li"><li>Inicio</li></a> 
-                    <a href="#acerca" class="li"><li>Acerca de</li></a>
-                    <a href="#conocimientos" class="li"><li>Conocimientos</li></a>
-                    <a href="#contacto" class="li"><li>Contacto</li></a>
+                    <a href="" class="li"><li>Acerca de</li></a>
+                    <a href="" class="li"><li>Conocimientos</li></a>
+                    <a href="" class="li"><li>Contacto</li></a>
                 </ul>
             </nav>
         </div>
@@ -43,11 +45,10 @@
             
         </section>
 
-        <div class="container">
-            <div class="wave">
+        <section class="container">
+            <div class="wave"></div>
+        </section>
 
-            </div>
-        </div>
         <section id="conocimientos">
                 <h2>CONOCIMIENTOS</h2>
                 <div class="cajatalleres">
@@ -80,7 +81,7 @@
             <h2>CONTACTO</h2>
             <div class="contenedorcontacto">
                 <div class="contact agenda">
-                    <img src="img/directorio-telefonico.png" alt="agenda">
+                    <img src="img/directorio-telefonico.png" alt="">
                 </div>
                 <div class="contact">
                     <form action="" name="contacto">
@@ -90,7 +91,12 @@
                         <input type="submit" class="boton">
                         <input type="reset" class="boton">
                         <br>
-                        <input type="checkbox" name="aviso" value="acepto">Aviso de privacidad
+                        
+                        <input type="checkbox" value="acepto" name="acepto" required> 
+                        <p class="aviso"> Aviso de privacidad
+                            <span class="aviso1">AVISO DE PRIVACIDAD <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, tempora atque! Fugiat voluptas reprehenderit repellat dolores iste? Nulla, doloremque? Distinctio voluptatem qui blanditiis ab odio in recusandae iure temporibus facere enim dolorum nisi possimus voluptatibus maiores dicta eveniet dolorem, eos, et odit accusantium! Laudantium quaerat error non id iure repellat in doloremque fugiat eum, quisquam cumque dolor est nulla laborum ut voluptates hic reiciendis voluptas! Maxime minus blanditiis soluta fugiat recusandae tempora ratione consequuntur, at assumenda vero doloribus nesciunt id perspiciatis, perferendis et. Officiis exercitationem id nostrum temporibus, laboriosam earum at dicta nemo, aut, nisi deleniti vitae molestias animi ut!</span>
+                       </p>
+                        
                     </form>
                 </div>
             </div>
@@ -98,14 +104,7 @@
 
     </main>
     <footer>
-        <div class="redes">
-            <img src="img/twitter_254405.png" alt="twitter">
-            <img src="img/facebook_1051309.png" alt="facebook">
-            <img src="img/instagram_1384047.png" alt="instagram">
-        </div>
-        <div class="redes">
-            <p>Telefono:555555555555    correo:asds@gmail.com</p>
-        </div>
+
     </footer>
 
    <a href=" https://wa.me/5532926062" target="_blank"> <img src="img/chat.png" alt="whatsapp" class="whats"></a>
