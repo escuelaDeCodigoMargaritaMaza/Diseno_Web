@@ -335,6 +335,70 @@ h2{
     transition-delay: 0.3s;
   }
 
+
+/* ESTILOS DE PÁGINA SECUNDARIA */
+
+.main {
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.gallery {
+    display: flex;
+    gap: 1rem;  
+    max-width: 150rem;
+}
+
+.card {
+    position: relative;
+    left: 0px;
+    width: 6rem;
+    border-radius: 1.2rem;
+    height: 20rem;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+    flex: 0.25;
+}
+
+.card img {
+    position: relative;
+    height: 20rem;
+    object-fit: cover;
+   
+}
+
+.card:hover {
+    flex: 2;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+/* polish images center */
+.card:nth-child(1) img {
+    left: -8rem;
+}
+
+.card:nth-child(2) img {
+    left: -6rem;
+}
+
+.card:nth-child(3) img {
+    left: -14rem;
+}
+
+.card:nth-child(4) img {
+    left: -8rem;
+}
+
+
+
+
+
 /* --------------------------------------------------------------------------------------- */
 /* AQUI COMIENZA DISEÑO RESPONSIVO */
 /* ----------------------------------------------------------------------------------------- */
