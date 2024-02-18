@@ -15,7 +15,7 @@ header{
 }
 main{
     width: 100%;
-    height: 150vh;
+    height: 180vh;
 }
 footer{
     width: 100%;
@@ -93,16 +93,8 @@ nav img{
     width: 100%;
     height: 50vh;
 }
-#talleres{
-    width: 100%;
-    height: 50vh;
-    background-color: rgb(45, 106, 108);
-}
-#contacto{
-    width: 100%;
-    height: 50vh;
-    background-color: rgb(160, 168, 168);    display: fl;
-}
+
+
 .contenedor{
     width: 80%;
     height: 45vh;
@@ -126,6 +118,93 @@ h2{
     width: 100%;
     height:40vh;
 
+}
+
+
+/* estilos del icono whatsapp */
+.whats{
+    position: fixed;
+    right: 10px;
+    bottom:10px;
+}
+
+/* estilos del separador */
+.curved {
+    position: relative;
+    background: blue;
+    height: 20vh;
+    border-bottom-left-radius: 50% 42%;
+    border-bottom-right-radius: 50% 42%;
+  }
+
+
+  /* seccion talleres */
+  #talleres{
+    width: 100%;
+    height: 60vh;
+   
+}
+  .talleres{
+    width: 70%;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .taller{
+    width: 30%;
+    height: 50vh;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    text-align: center;
+    transition: .5s, color .10s;
+  }
+ .taller img{
+    width: 50%;
+    height: 20vh;
+    margin-top: -30px;
+ }
+ .taller:hover{ 
+    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+    transform: translate(0px,5px);
+ }
+
+ /* seccion contacto */
+ #contacto{
+    width: 100%;
+    height: 50vh;  
+}
+.contacto{
+    width: 70%;
+    height: 43vh;
+    margin: auto;
+    display: flex;
+}
+.formulario{
+    width: 50%;
+    height: 43vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.formulario img{
+    width: 100%;
+}
+.formulario input{
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 2px solid blue;
+    margin-bottom: 10px;
+}
+
+.boton{
+    padding: 3px 10px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
 }
 
 /* ------------------------------------- */
@@ -153,6 +232,10 @@ h2{
         font-size: 2.5em;
     }
 
+    main{
+        height: 350vh;
+    }
+
     /* seccion acerca */
     .contenedor{
         flex-direction: column;
@@ -165,4 +248,24 @@ h2{
     #acerca{
         height: 70vh;
     }
+    /* seccion talleres */
+    #talleres{
+        height: 210vh;
+    }
+    .talleres{
+        height: 210vh;
+        flex-direction: column;
+    }
+    .taller{
+        width: 100%;
+
+    }
+    /* estilos de contacto */
+    .agenda{
+        display: none;
+    }
+    .formulario{
+        width: 100%;
+    }
+
 }
