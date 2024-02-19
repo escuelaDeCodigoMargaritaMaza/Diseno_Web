@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 60vh;
+    background-color: antiquewhite;
+}
+.titulo{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.encabezado{
+    width: 33%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(185, 140, 71);
+}
+
+li{
+    list-style-type: none;
+    color: #fff;
+    margin-right: 30px;
+}
+nav ul{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.frase{
+    width: 100%;
+    height: 40vh;
+    background: url("../img/portada.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.grande{
+    color: #fff;
+    font-size: 3rem;
+}
+.chico{
+    color: #fff;
+    font-size: .9rem;
+}
+h1{
+    width: 70%;
+}
+
+main{
+        width: 100%;
+        height: 150vh;
+        background-color: blueviolet;
+}
+section{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(231, 131, 131);
+    border: 1px solid black;
+}
+.contenedor{
+    width: 85%;
+    height: 45vh;
+    background-color: aliceblue;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.libros{
+    width: 15%;
+    height: 40vh;
+    background-color: aqua;
+}
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color: bisque;
+}
