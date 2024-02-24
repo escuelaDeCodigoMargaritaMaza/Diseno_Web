@@ -1,293 +1,109 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Protest+Revolution&display=swap');
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>😊 David Santillán Bretón 😊</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <p>DSB</p>
 
+            <input type="checkbox" id="menu_hamburguesa">
+            <label for="menu_hamburguesa">
+                <img src="img/menu.png" alt="menu" width="100px">
+            </label>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="#acerca">Acerca de</a></li>
+                <li><a href="#talleres">Talleres</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="fondo">
+            <h1>DAVID <span> SANTILLÁN </span>BRETÓN</h1>
+        </div>
+    </header>
+    <main>
+        <section id="acerca">
+            <h2>ACERCA DE MI</h2>
+            <div class="contenedor">
+                <div>
+                    <img src="img/que-hace-programador-removebg-preview.png" alt="imagen del programador">
+                </div>
+                <div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum delectus aliquid a corrupti fuga culpa, blanditiis officiis reprehenderit atque nesciunt pariatur eos quo repudiandae ullam deleniti doloremque enim totam! Magnam unde cupiditate voluptatibus numquam ea, accusantium suscipit quam fuga pariatur sapiente, mollitia dolorum consectetur eos totam eveniet odio rerum similique?</p>
 
-/* primera sentencia */
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
+                </div>
 
-/* marcamos contenedores */
-header{
-    width: 100%;
-    height: 70vh;
-}
-main{
-    width: 100%;
-    height: 180vh;
-}
-footer{
-    width: 100%;
-    height: 30vh;
-    background-color: blue;
-}
+            </div>
+        </section>
+        <section class="curved"></section>
+        <section id="talleres">
+            <H2>TALLERES EN LA ESCUELA DE CÓDIGO</H2>
+            <div class="talleres">
+                <div class="taller">
+                    <img src="img/png-transparent-html-5-logo-web-development-html-css3-canvas-element-web-design-w3c-html5-logo-miscellaneous-text-orange-thumbnail-removebg-preview.png" alt="html">
+                    <h3>DISEÑO WEB</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quaerat odio repellendus voluptatibus, sint voluptas repudiandae, ab, minima facilis eos aliquid !</p>
+                    <a class='boton' href='/disenoweb'>Ver más</a>
+                </div>
+                <div class="taller">
+                    <img src="img/descarga__1_-removebg-preview.png" alt="html">
+                    <h3>DISEÑO WEB</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quaerat odio repellendus voluptatibus, sint voluptas repudiandae, ab, minima facilis eos aliquid </p> 
+                    <a class='boton' href='/disenoweb'>Ver más</a>
+                </div>
+                <div class="taller">
+                    <img src="img/Java-logo-removebg-preview.png" alt="html">
+                    <h3>DISEÑO WEB</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quaerat odio repellendus voluptatibus, sint voluptas repudiandae, ab, minima facilis eos aliquid </p>
+                    <a class='boton' href='/disenoweb'>Ver más</a>
+                </div>
+            </div>
 
-/* barra de menú */
-nav{
-    width: 100%;
-    height: 15vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-nav ul{
-    display: flex;
-}
-nav li{
-    list-style-type: none;
-    margin-right: 20px;
-    font-size: 2em;
-}
-nav a{
-    color: blue;
-    text-decoration: none;
-    padding: 0 10px;
-}
-nav a:hover{
-   
-    background-color: blue;
-    border-radius: 10px;
-    color: #fff;
-}
+        </section>
+        <section id="contacto">
+            <H2>CONTACTO</H2>
+                <div class="contacto">
+                    <div class="formulario agenda" >
+                        <img src="img/6c255accf94f52b16eb3845ee47bc3bf-removebg-preview.png"  alt="">
+                    </div>
+                    <div class="formulario">
+                        <form action="">
+                            Nombre: <input type="text" placeholder="Nombre completo" name="nombre" size="30"><br>
+                            Correo: <input type="email" placeholder="Correo electrónio" name="correo"  size="30"><br>
+                            Teléfono <input type="tel" minlength="10" maxlength="10"  size="30"><br>
+                            <input type="submit" class="boton"> 
+                            <input type="reset" class="boton"> <br>
+                            <input type="checkbox" name="acepto"> 
+                             <p class="aviso"> Aviso de privacidad
+                            <span class="aviso1">AVISO DE PRIVACIDAD <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, tempora atque! Fugiat voluptas reprehenderit repellat dolores iste? Nulla, doloremque? Distinctio voluptatem qui blanditiis ab odio in recusandae iure temporibus facere enim dolorum nisi possimus voluptatibus maiores dicta eveniet dolorem, eos, et odit accusantium! Laudantium quaerat error non id iure repellat in doloremque fugiat eum, quisquam cumque dolor est nulla laborum ut voluptates hic reiciendis voluptas! Maxime minus blanditiis soluta fugiat recusandae tempora ratione consequuntur, at assumenda vero doloribus nesciunt id perspiciatis, perferendis et. Officiis exercitationem id nostrum temporibus, laboriosam earum at dicta nemo, aut, nisi deleniti vitae molestias animi ut!</span>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor_footer">
+            <div>
+                <img src="img/facebook.png" alt="">
+                <img src="img/gorjeo.png" alt="">
+                <img src="img/instagram.png" alt="">
+                <img src="img/tik-tok.png" alt="">
+            </div>
+            <div>
+     
+                <p><img src="img/llamada-telefonica.png" alt="" width="32px"> 555555555</p>
+                <p><img src="img/correo-electronico.png" alt="">  dad@aol.com</p>
 
-nav p{
-    font-family: 'Protest Revolution', sans-serif;
-    font-size: 3em;
-    color: blue;
-}
-/* imagen de fondo */
-.fondo{
-    background: url("../img/pexels-donald-tong-23475.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100%;
-    height: 55vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-h1{
-    font-size: 3em;
-    text-shadow: 0 0 5px #e9d02e;
-    color: #fff;
-}
-
-span{
-    letter-spacing: 5px;
-    font-weight: bold;
-    font-size: 1.5em;
-    color: rgb(138, 138, 233);
-}
-
-
-
-nav img{
-    display: none;
-}
-
-/* seccion acerca de */
-
-#acerca{
-    width: 100%;
-    height: 50vh;
-}
-
-
-.contenedor{
-    width: 80%;
-    height: 45vh;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-}
-.contenedor div{
-    width: 30%;
-    height: 45vh;
-    text-align: justify;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-}
-h2{
-    text-align: center;
-    font-size: 2em;
-    color:blue;
-}
-.contenedor img{
-    width: 100%;
-    height:40vh;
-
-}
-
-
-/* estilos del icono whatsapp */
-.whats{
-    position: fixed;
-    right: 10px;
-    bottom:10px;
-}
-
-/* estilos del separador */
-.curved {
-    position: relative;
-    background: blue;
-    height: 20vh;
-    border-bottom-left-radius: 50% 42%;
-    border-bottom-right-radius: 50% 42%;
-  }
-
-
-  /* seccion talleres */
-  #talleres{
-    width: 100%;
-    height: 60vh;
-   
-}
-  .talleres{
-    width: 70%;
-    height: 50vh;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: end;
-  }
-
-  .taller{
-    width: 30%;
-    height: 40vh;
-    box-shadow: 0 0 10px black;
-    border-radius: 10px;
-    text-align: center;
-    transition: .5s, color .10s;
-  }
- .taller img{
-    width: 50%;
-    height: 20vh;
-    margin-top: -30px;
- }
- .taller p{
-    margin-bottom: 10px;
- }
- .taller:hover{ 
-    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
-    transform: translate(0px,5px);
- }
-
- /* seccion contacto */
- #contacto{
-    width: 100%;
-    height: 50vh;  
-}
-.contacto{
-    width: 70%;
-    height: 43vh;
-    margin: auto;
-    display: flex;
-}
-.formulario{
-    width: 50%;
-    height: 43vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.formulario img{
-    width: 100%;
-}
-.formulario input{
-    font-size: 1.5rem;
-    border: none;
-    border-bottom: 2px solid blue;
-    margin-bottom: 10px;
-}
-
-.boton{
-    padding: 3px 10px;
-    background-color: blue;
-    color: #fff;
-    border-radius: 5px;
-    text-decoration: none;
-}
-.boton:hover{
-    border: 1px solid blue;
-    background-color: #fff;
-    border-radius: 10px;
-    color: blue;
-}
-
-/* ------------------------------------- */
-/* DISEÑO RESPONSIVO */
-/* -------------------------------------- */
-
-@media(max-width:600px){
-    header{
-        height: 90vh;
-    }
-    nav ul{
-        display: none;
-    }
-    nav img{
-        display: block;
-    }
-    nav p{
-        font-size: 3em;
-    }
-    .fondo{
-        height: 75vh;
-    }
-    h1{
-        text-align: center;
-        font-size: 2.5em;
-    }
-
-    main{
-        height: 300vh;
-    }
-
-    /* seccion acerca */
-    .contenedor{
-        flex-direction: column;
-        height: 55vh;
-    }
-    .contenedor div{
-        width: 100%;
-        height: 55vh;
-    }
-    .contenedor img{
-        height: 25vh;
-    }
-    #acerca{
-        height: 65vh;
-    }
-    /* seccion talleres */
-    #talleres{
-        height: 160vh;
-    }
-    .talleres{
-        height: 160vh;
-        width: 90%;
-        flex-direction: column;
-        justify-content: left;
-
-    }
-    .taller{
-        width: 100%;
-        margin-top: 50px;
-
-    }
-    /* estilos de contacto */
-    .agenda{
-        display: none;
-    }
-    .formulario{
-        width: 100%;
-    }
-
-}
+            </div>
+        </div>
+        <p>©Todos los derechos reservados</p>
+    </footer>
+     <a href="https://wa.me/5532926062" target="_blank"><img src="img/logotipo-grande-de-whatssapp.png" alt="whatsapp" class="whats"></a> 
+</body>
+</html>
