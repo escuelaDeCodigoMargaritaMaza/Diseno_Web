@@ -61,11 +61,27 @@
             <h2>CONTACTO</h2>
             <form action="" method=""> 
                 <!-- action: a dónde van los datos, method es cómo -->
-                : <input type="text" name="nombre" minlength="3" maxlength="20" placeholder="solo nombre" required>
+                Nombre: <input type="text" name="nombre" minlength="3" maxlength="20" placeholder="solo nombre" required>
                 Apellido Paterno: <input type="text" minlength="3" maxlength="20"> <br> <br>
-                Edad: <input type="number" min="18" max="90" value="0" name="edad"><br>
-
-
+                Edad: <input type="number" min="18" max="90" value="0" name="edad">
+                Teléfono: <input type="tel" name="telefono" minlength="10" maxlength="10" placeholder="10 dígitos">
+                Correo: <input type="email" name="mail"><br><br>
+                Sexo: <input type="radio" value="hombre" name="sexo"> hombre
+                <input type="radio" name="sexo" value="mujer">mujer 
+                <input type="radio" value="otro" name="sexo">otro<br><br>
+                <input type="checkbox" name="informacion" value="si">Deseas recibir informacion <br>
+                <input type="checkbox" name="aveces" value="aveces">Solo de tecnología<br>
+                <input type="checkbox" name="cambios" value="cambio">Solo de cambios en el sitio<br>
+                <input type="checkbox" name="no" value="no">No deseo recibir información<br><br>
+                De qúe tema deseas recibir inromación: <br>
+                <select name="noticias" >
+                    <option value="ninguno">SLECCIONA</option>
+                    <option value="diseño">DISEÑO WEB</option>
+                    <option value="base">BASE DE DATOS|</option>
+                    <option value="programacion">PROGRAMACIÓN</option>
+                </select> <br><br>
+                Deseas que revise tu archivo: <br>
+                <input type="file" name="archivo"><br><br>
                 <input type="submit" value="contactame💕">
                 <input type="reset" value="limpiar🤦‍♂️">
 
