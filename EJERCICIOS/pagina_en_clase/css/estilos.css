@@ -82,3 +82,26 @@ nav a:hover{
     padding: 10px;
     box-shadow: 5px 5px 15px rgb(246, 14, 223);
 }
+
+/* seccion talleres */
+#talleres{
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+}
+.cajota{
+    width: 100%; 
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cajita{
+    width: 30%;
+    height: 45vh;
+    box-shadow: 0 0 5px blueviolet;
+}
+.cajita img{
+    width: 100%;
+    height: 20vh;
+}
