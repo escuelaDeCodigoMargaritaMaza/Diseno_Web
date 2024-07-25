@@ -4,35 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David Santillán 👌</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <header>
-        <p>DSB</p>
+        <p class="logo">DSB</p>
         <nav>
             <ul>
-                <li>Inicio</li>
-                <li>Acerca de mi</li>
-                <li>Conocimientos</li>
-                <li>Contacto</li>
-                <li>Redes</li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca de mi</a></li>
+                <li><a href="#talleres"> Conocimientos</a></li>
+                <li><a href="#contacto"> Contacto</a></li>
+                <li><a href="#redes"> Redes</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section id="inicio">
             <!-- seccion inicio -->
-            <h1>DAVID SANTILLAN BRETON</h1>
-            <img src="img/fondo.jpg" alt="fondo" width="100%">
+            <h1 class="logo">DAVID SANTILLAN BRETON</h1>
+            
         </section>
 
-        <section>
+        <section id="acerca">
             <!-- aqui pondré acerca de mi -->
              <h2>ACERCA DE MI</h2>
              <hr>
-             <img src="img/persona.png" alt="persona" width="30%">
-             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quos molestiae maiores aperiam quis laudantium saepe enim, minima, laboriosam omnis vero veritatis dolor? Perferendis velit itaque impedit eius voluptates, id in quidem non sapiente molestiae qui inventore tempora iure quis beatae provident adipisci commodi consequatur porro minima hic, ea repellat eveniet. Pariatur laborum vel iure eius deleniti ipsa esse natus accusantium eveniet explicabo quod libero voluptates, voluptatibus consectetur, optio dolore ullam, tenetur itaque error maiores reiciendis rem est fuga? Explicabo quisquam sint iste aspernatur consequuntur voluptatem, nemo repellendus obcaecati perferendis ab eaque aliquid laudantium. Pariatur, rem quidem? Aliquam, laudantium nisi?</p>
+             <div class="imagenytexto">
+                <img src="img/persona.png" alt="persona" width="30%">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quos molestiae maiores aperiam quis laudantium saepe enim, minima, laboriosam omnis vero veritatis dolor? Perferendis velit itaque impedit eius voluptates, id in quidem non sapiente molestiae qui inventore tempora iure quis beatae provident adipisci commodi consequatur porro minima hic, ea repellat eveniet. Pariatur laborum vel iure eius deleniti ipsa esse natus accusantium eveniet explicabo quod libero voluptates, voluptatibus consectetur, optio dolore ullam, tenetur itaque error maiores reiciendis rem est fuga? Explicabo quisquam sint iste aspernatur consequuntur voluptatem, nemo repellendus obcaecati perferendis ab eaque aliquid laudantium. Pariatur, rem quidem? Aliquam, laudantium nisi?</p>
+            </div>
         </section>
-        <section>
+        <section id="talleres">
             <!-- aqui pondré mis talleres en la escuela de código -->
              <h2>TALLERES</h2>
              <div>
@@ -56,7 +59,7 @@
                 <button>Saber más</button>
              </div>
         </section>
-        <section>
+        <section id="contacto">
             <!-- aqui pondré un formulario de contacto -->
             <h2>CONTACTO</h2>
             <form action="" method=""> 
@@ -92,7 +95,7 @@
         </section>
 
     </main>
-    <footer>
+    <footer id="redes">
         <!-- aqui pondré redes sociales y formas de contacto -->
          <h4>CONTACTO: </h4>
          <p>Tel: 5555555555</p>
