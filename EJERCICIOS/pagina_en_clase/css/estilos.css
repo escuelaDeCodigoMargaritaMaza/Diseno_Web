@@ -100,8 +100,65 @@ nav a:hover{
     width: 30%;
     height: 45vh;
     box-shadow: 0 0 5px blueviolet;
+    padding: 10px;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
 }
 .cajita img{
     width: 100%;
     height: 20vh;
 }
+
+.cajita:hover{
+    box-shadow: 0 8px 8px 0 blueviolet,0 8px 8px 0 blueviolet;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
+}
+
+/* seccion  contacto */
+#contacto{
+    width: 100%;
+    height: 75vh;
+}
+.formulario{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+form{
+    width: 60%;
+    height: 70vh;
+    border: double 3px blueviolet;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: 25vh;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+.contenedor{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.datos{
+    width: 25%;
+    height: 15vh;
+}
+.datos img{
+    width: 20%;
+    margin-right: 50px;
+}
+              
