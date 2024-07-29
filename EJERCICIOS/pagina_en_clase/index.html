@@ -47,7 +47,7 @@
 
                 </div>
                 <div class="cajita">
-                    <h3>BASE DE DATOSNombre</h3>
+                    <h3>BASE DE DATOS</h3>
                     <img src="img/base.png" alt="logo de html" width="25%">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore eum officiis autem nam laborum porro consequatur quaerat atque recusandae est?</p>
                     <button>Saber más</button>
@@ -64,45 +64,55 @@
         <section id="contacto">
             <!-- aqui pondré un formulario de contacto -->
             <h2>CONTACTO</h2>
-            <form action="" method=""> 
-                <!-- action: a dónde van los datos, method es cómo -->
-                Nombre: <input type="text" name="nombre" minlength="3" maxlength="20" placeholder="solo nombre" required>
-                Apellido Paterno: <input type="text" minlength="3" maxlength="20"> <br> <br>
-                Edad: <input type="number" min="18" max="90" value="0" name="edad">
-                Teléfono: <input type="tel" name="telefono" minlength="10" maxlength="10" placeholder="10 dígitos">
-                Correo: <input type="email" name="mail"><br><br>
-                Sexo: <input type="radio" value="hombre" name="sexo"> hombre
-                <input type="radio" name="sexo" value="mujer">mujer 
-                <input type="radio" value="otro" name="sexo">otro<br><br>
-                <input type="checkbox" name="informacion" value="si">Deseas recibir informacion <br>
-                <input type="checkbox" name="aveces" value="aveces">Solo de tecnología<br>
-                <input type="checkbox" name="cambios" value="cambio">Solo de cambios en el sitio<br>
-                <input type="checkbox" name="no" value="no">No deseo recibir información<br><br>
-                De qúe tema deseas recibir inromación: <br>
-                <select name="noticias" >
-                    <option value="ninguno">SLECCIONA</option>
-                    <option value="diseño">DISEÑO WEB</option>
-                    <option value="base">BASE DE DATOS|</option>
-                    <option value="programacion">PROGRAMACIÓN</option>
-                </select> <br><br>
-                Deseas que revise tu archivo: <br>
-                <input type="file" name="archivo"><br><br>
+            <div class="formulario">
+                <form action="" method=""> 
+                    <!-- action: a dónde van los datos, method es cómo -->
+                    Nombre: <input type="text" name="nombre" minlength="3" maxlength="20" placeholder="solo nombre" required>
+                    Apellido Paterno: <input type="text" minlength="3" maxlength="20"> <br> <br>
+                    Edad: <input type="number" min="18" max="90" value="0" name="edad">
+                    Teléfono: <input type="tel" name="telefono" minlength="10" maxlength="10" placeholder="10 dígitos">
+                    Correo: <input type="email" name="mail"><br><br>
+                    Sexo: <input type="radio" value="hombre" name="sexo"> hombre
+                    <input type="radio" name="sexo" value="mujer">mujer 
+                    <input type="radio" value="otro" name="sexo">otro<br><br>
+                    <input type="checkbox" name="informacion" value="si">Deseas recibir informacion <br>
+                    <input type="checkbox" name="aveces" value="aveces">Solo de tecnología<br>
+                    <input type="checkbox" name="cambios" value="cambio">Solo de cambios en el sitio<br>
+                    <input type="checkbox" name="no" value="no">No deseo recibir información <br>   
+                    De qúe tema deseas recibir inromación: <br>
+                    <select name="noticias" >
+                        <option value="ninguno">SLECCIONA</option>
+                        <option value="diseño">DISEÑO WEB</option>
+                        <option value="base">BASE DE DATOS|</option>
+                        <option value="programacion">PROGRAMACIÓN</option>
+                    </select> <br>
+                    Deseas que revise tu archivo: <br>
+                    <input type="file" name="archivo"><br>
 
-                Si tu archivo tiene contraseña ingrésala : <input type="password" name="contaseña"><br><br>
-                Fecha en que deseas ser contactado(a)(e): <input type="date" name="fecha"> hora: <input type="time" name="hora"><br><br>
-                <input type="submit" value="contactame💕">
-                <input type="reset" value="limpiar🤦‍♂️">
+                    Si tu archivo tiene contraseña ingrésala : <input type="password" name="contaseña"><br><br>
+                    Fecha en que deseas ser contactado(a)(e): <input type="date" name="fecha"> hora: <input type="time" name="hora"><br><br>
+                    <input type="submit" value="contactame💕">
+                    <input type="reset" value="limpiar🤦‍♂️">
 
-            </form>
+                </form>
+            </div>
         </section>
 
     </main>
     <footer id="redes">
         <!-- aqui pondré redes sociales y formas de contacto -->
-         <h4>CONTACTO: </h4>
-         <p>Tel: 5555555555</p>
-         <p>Correo: kjhdkjf@fsdf.com</p>
-         <a href="https://www.facebook.com/" target="_blank">  <img src="img/images.png" alt="" width="5%"></a>
+        <h4>CONTACTO: </h4>
+        <div class="contenedor">
+            <div class="datos">
+                <p>Tel: 5555555555</p>
+                <p>Correo: kjhdkjf@fsdf.com</p>
+            </div>
+            <div class="datos">
+                <a href="https://www.facebook.com/" target="_blank">  <img src="img/facebook.png" alt="" width="5%"></a>
+                <a href="https://www.facebook.com/" target="_blank">  <img src="img/instagram.png" alt="" width="5%"></a>
+            </div>
+            
+        </div>
     </footer>
 </body>
 </html>
