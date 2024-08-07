@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+header{
+    width: 100%;
+    height: 20vh;
+}
+main{
+    width: 100%;
+    height: 160vh;
+    background-color: green;
+}
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color: blueviolet;
+}
+.titulo{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+}
+nav{
+    width: 100%;
+    height: 5vh;
+}
+.caja{
+    width: 33%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 4em;
+    color: rgb(87, 69, 32);
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+.caja input{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: rgb(63, 47, 15);
+    padding: 3px;
+}
+.buscar{
+    background-color: rgb(198, 195, 195);
+}
+nav ul{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    background-color: rgb(197, 149, 53);
+}
+nav li{
+    list-style-type: none;
+    color: #fff;
+}
