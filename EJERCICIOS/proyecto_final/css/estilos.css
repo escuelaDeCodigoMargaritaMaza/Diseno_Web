@@ -1,176 +1,125 @@
-*{
-    padding: 0;
-    margin: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
 header{
     width: 100%;
-    height: 60vh;
-    background-color: antiquewhite;
+    height: 20vh;
+}
+main{
+    width: 100%;
+    height: 300vh;
+}
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color: blueviolet;
 }
 .titulo{
     width: 100%;
-    height: 10vh;
+    height: 15vh;
     display: flex;
-    justify-content: flex-end;
-
 }
-
-.encabezado{
-    width: 33%;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
 nav{
     width: 100%;
-    height: 10vh;
-    background-color: rgb(185, 140, 71);
+    height: 5vh;
 }
-
-li{
-    list-style-type: none;
-    color: #fff;
-    margin-right: 30px;
-}
-nav ul{
-    height: 10vh;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
-}
-
-.frase{
-    width: 100%;
-    height: 40vh;
-    background: url("../img/portada.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.caja{
+    width: 33%;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-}
-.grande{
-    color: #fff;
-    font-size: 3rem;
-}
-.chico{
-    color: #fff;
-    font-size: .9rem;
 }
 h1{
-    width: 70%;
+    font-size: 4em;
+    color: rgb(87, 69, 32);
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
 }
-
-main{
-        width: 100%;
-        height: 150vh;
-        background-color: blueviolet;
+.caja input{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: rgb(63, 47, 15);
+    padding: 3px;
+}
+.buscar{
+    background-color: rgb(198, 195, 195);
+}
+nav ul{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    background-color: rgb(197, 149, 53);
+}
+nav li{
+    list-style-type: none;
+    color: #fff;
 }
 section{
     width: 100%;
-    height: 50vh;
-    background-color: rgb(231, 131, 131);
-    border: 1px solid black;
-}
-.contenedor{
-    width: 85%;
-    height: 45vh;
-    background-color: aliceblue;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.libros{
-    width: 15%;
-    height: 40vh;
-    background-color: aqua;
-    text-align: center;
-}
-
-.libros img{
-    width: 70%;
-}
-button{
-    background-color: red;
-    color: #fff;
-    border: none;
-    padding:0 20px;
-}
-
-h2{
-    color: red;
-    margin: 20px 20px;
-}
-
-.contenedor1{
-    width: 185%;
-    height: 40vh;
-    background-color: aliceblue;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: 60vh;
+    border: dotted;
 
 }
-.libros1{
-    width: 15%;
-    height: 40vh;
-    background-color: aqua;
-    text-align: center;
-}
-.libros1 img{
-    width: 30%;
-}
-#Libros{
-    width: 100%;
-    height: 52vh;
-    overflow: auto;
-}
-
-#conocenos{
-    display: flex;;
-}
-.cont{
-    margin-top: 40px;
-    width: 50%;
-    height: 40vh;
-}
-.cont1{
-    margin-top: 40px;
-    width: 50%;
-    height: 40vh;
-    background: url("../img/libreria.jpg");
-    background-repeat: no-repeat;
+.seccion1{
+    background: url(../img/portada.jpg);
     background-position: center;
     background-size: cover;
-}
-
-.rojo{
-    text-align: center;
-    color: red;
-}
-
-footer{
-    width: 100%;
-    height: 50vh;
-    background-color: rgb(185, 140, 71);
-}
-.pie2{
-    width: 32%;
-    height: 45vh;
-    background-color: #fff;
-}
-.pie{
+    background-attachment: fixed;
+    color:#fff;
     display: flex;
-    justify-content: space-around;
-
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h2{
+    width: 70%;
+}
+.texto1{
+    font-size:2em;
+}
+.texto2{
+    font-size: .8em;
+    font-style: italic;
+}
+.contenedor{
+    width: 90%;
+    height: 57vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.seccion2{
+    height: 80vh;
+}
+.libro{
+    width: 20%;
+    height: 75vh;
+    text-align: center;
+}
+.libro img{
+    width: 90%;
+    height: 50vh;
+}
+.libro h4{
+    font-size: 1.3em;
+}
+.libro button{
+    background-color: red;
+    color: #fff;
+    padding: 2px 15px;
+}
+h3{
+    color: red;
 }
