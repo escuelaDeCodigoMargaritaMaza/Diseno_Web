@@ -13,12 +13,11 @@ header{
 }
 main{
     width: 100%;
-    height: 160vh;
-    background-color: green;
+    height: 300vh;
 }
 footer{
     width: 100%;
-    height: 30vh;
+    height: 45vh;
     background-color: blueviolet;
 }
 .titulo{
@@ -66,4 +65,86 @@ nav ul{
 nav li{
     list-style-type: none;
     color: #fff;
+}
+section{
+    width: 100%;
+    height: 60vh;
+    border: dotted;
+
+}
+.seccion1{
+    background: url(../img/portada.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h2{
+    width: 70%;
+}
+.texto1{
+    font-size:2em;
+}
+.texto2{
+    font-size: .8em;
+    font-style: italic;
+}
+.contenedor{
+    width: 90%;
+    height: 57vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+}
+.seccion2{
+    height: 80vh;
+}
+.libro{
+    width: 20%;
+    height: 75vh;
+    text-align: center;
+}
+.libro img{
+    width: 90%;
+    height: 50vh;
+}
+.libro h4{
+    font-size: 1.3em;
+}
+.libro button{
+    background-color: red;
+    color: #fff;
+    padding: 2px 15px;
+}
+h3{
+    color: red;
+}
+.seccion3{ 
+    width: 100%;
+    height: 80vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.textoeimagen{
+    width: 45%;
+    height: 70vh;
+    background-color: blueviolet;
+}
+.caja3{
+    width: 30%;
+    height: 40vh;
+    background-color: blanchedalmond;
+}
+.caja2{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
 }
